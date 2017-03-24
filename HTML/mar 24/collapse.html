@@ -1,0 +1,70 @@
+<!--https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_id2-->
+<html>
+<head>
+<style>
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid yellow;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color:darkred;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:red;
+}
+table#t02 tr:nth-child(odd) {
+   background-color:red;
+}
+table#t01 th {
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<table id="t02">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+<br>
+
+<table id="t01">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>amar</td>
+    <td>naik</td>
+    <td>20</td>
+  </tr>
+</table>
+
+</body>
+</html>

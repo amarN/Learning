@@ -2,7 +2,7 @@
     "version": "0.1.0",
     "command": "Run HTML",    
     "windows": {
-        "command": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
+        "command": "C:/Program Files/Google/Chrome/Application/chrome.exe"
     },
     "args": ["${file}"]
     // "args": ["mar21/new1.html"]
